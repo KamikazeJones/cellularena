@@ -1,0 +1,861 @@
+
+Standard Error Stream:
+
+Start
+
+0 7
+Standard Error Stream:
+
+; 18 9
+; 69
+; 0 0 WALL -1 0 X 0 0
+; 1 0 WALL -1 0 X 0 0
+; 2 0 WALL -1 0 X 0 0
+; 3 0 WALL -1 0 X 0 0
+; 4 0 WALL -1 0 X 0 0
+; 5 0 WALL -1 0 X 0 0
+; 6 0 WALL -1 0 X 0 0
+; 7 0 WALL -1 0 X 0 0
+; 8 0 WALL -1 0 X 0 0
+; 9 0 WALL -1 0 X 0 0
+; 10 0 WALL -1 0 X 0 0
+; 11 0 WALL -1 0 X 0 0
+; 12 0 WALL -1 0 X 0 0
+; 13 0 WALL -1 0 X 0 0
+; 14 0 WALL -1 0 X 0 0
+; 15 0 WALL -1 0 X 0 0
+; 16 0 WALL -1 0 X 0 0
+; 17 0 WALL -1 0 X 0 0
+; 0 1 WALL -1 0 X 0 0
+; 15 1 A -1 0 X 0 0
+; 17 1 WALL -1 0 X 0 0
+; 0 2 WALL -1 0 X 0 0
+; 1 2 ROOT 1 1 N 0 1
+; 17 2 WALL -1 0 X 0 0
+; 0 3 WALL -1 0 X 0 0
+; 17 3 WALL -1 0 X 0 0
+; 0 4 WALL -1 0 X 0 0
+; 1 4 WALL -1 0 X 0 0
+; 2 4 WALL -1 0 X 0 0
+; 3 4 WALL -1 0 X 0 0
+; 4 4 WALL -1 0 X 0 0
+; 5 4 WALL -1 0 X 0 0
+; 6 4 WALL -1 0 X 0 0
+; 7 4 WALL -1 0 X 0 0
+; 8 4 WALL -1 0 X 0 0
+; 9 4 WALL -1 0 X 0 0
+; 10 4 WALL -1 0 X 0 0
+; 11 4 WALL -1 0 X 0 0
+; 12 4 WALL -1 0 X 0 0
+; 13 4 WALL -1 0 X 0 0
+; 14 4 WALL -1 0 X 0 0
+; 15 4 WALL -1 0 X 0 0
+; 17 4 WALL -1 0 X 0 0
+; 0 5 WALL -1 0 X 0 0
+; 15 5 A -1 0 X 0 0
+; 17 5 WALL -1 0 X 0 0
+; 0 6 WALL -1 0 X 0 0
+; 1 6 ROOT 0 2 N 0 2
+; 17 6 WALL -1 0 X 0 0
+; 0 7 WALL -1 0 X 0 0
+; 17 7 WALL -1 0 X 0 0
+; 0 8 WALL -1 0 X 0 0
+; 1 8 WALL -1 0 X 0 0
+; 2 8 WALL -1 0 X 0 0
+; 3 8 WALL -1 0 X 0 0
+; 4 8 WALL -1 0 X 0 0
+; 5 8 WALL -1 0 X 0 0
+; 6 8 WALL -1 0 X 0 0
+; 7 8 WALL -1 0 X 0 0
+; 8 8 WALL -1 0 X 0 0
+; 9 8 WALL -1 0 X 0 0
+; 10 8 WALL -1 0 X 0 0
+; 11 8 WALL -1 0 X 0 0
+; 12 8 WALL -1 0 X 0 0
+; 13 8 WALL -1 0 X 0 0
+; 14 8 WALL -1 0 X 0 0
+; 15 8 WALL -1 0 X 0 0
+; 16 8 WALL -1 0 X 0 0
+; 17 8 WALL -1 0 X 0 0
+; 6 2 2 3
+; 6 2 2 3
+; 1
+--- my: [ A:6 B:2 C:2 D:3 ] ------ opp: [ A:6 B:2 C:2 D:3 ] ---
+##################
+#              a #
+#R               #
+#                #
+################ #
+#              a #
+#r               #
+#                #
+##################
+turn: 0
+die gefundenen Root-Organe: [{:root {:x 1, :y 2, :type "ROOT", :owner 1, :organId 1, :organDir "N", :organParentId 0, :organRootId 1}, :actual [1 2], :spore-state 0}]
+action-count:0 requiredActionsCount:1
+in harvest-strategy x:1 y:2 protein: {:x 15, :y 1, :type "A", :owner -1, :organId 0, :organDir "X", :organParentId 0, :organRootId 0}
+
+Standard Output Stream:
+
+GROW 1 2 2 SPORER E
+
+1 7
+Standard Output Stream:
+
+GROW 2 1 5 SPORER E
+
+Game Summary:
+
+kamikazejones:
+- consumed 1B, 1D for growth
+BOSS 4:
+- consumed 1B, 1D for growth
+
+Standard Error Stream:
+
+0: [{:root {:x 1, :y 2, :type "ROOT", :owner 1, :organId 1, :organDir "N", :organParentId 0, :organRootId 1}, :actual [2 2], :spore-state 1}]
+; 71
+; 0 0 WALL -1 0 X 0 0
+; 1 0 WALL -1 0 X 0 0
+; 2 0 WALL -1 0 X 0 0
+; 3 0 WALL -1 0 X 0 0
+; 4 0 WALL -1 0 X 0 0
+; 5 0 WALL -1 0 X 0 0
+; 6 0 WALL -1 0 X 0 0
+; 7 0 WALL -1 0 X 0 0
+; 8 0 WALL -1 0 X 0 0
+; 9 0 WALL -1 0 X 0 0
+; 10 0 WALL -1 0 X 0 0
+; 11 0 WALL -1 0 X 0 0
+; 12 0 WALL -1 0 X 0 0
+; 13 0 WALL -1 0 X 0 0
+; 14 0 WALL -1 0 X 0 0
+; 15 0 WALL -1 0 X 0 0
+; 16 0 WALL -1 0 X 0 0
+; 17 0 WALL -1 0 X 0 0
+; 0 1 WALL -1 0 X 0 0
+; 15 1 A -1 0 X 0 0
+; 17 1 WALL -1 0 X 0 0
+; 0 2 WALL -1 0 X 0 0
+; 1 2 ROOT 1 1 N 0 1
+; 2 2 SPORER 1 3 E 1 1
+; 17 2 WALL -1 0 X 0 0
+; 0 3 WALL -1 0 X 0 0
+; 17 3 WALL -1 0 X 0 0
+; 0 4 WALL -1 0 X 0 0
+; 1 4 WALL -1 0 X 0 0
+; 2 4 WALL -1 0 X 0 0
+; 3 4 WALL -1 0 X 0 0
+; 4 4 WALL -1 0 X 0 0
+; 5 4 WALL -1 0 X 0 0
+; 6 4 WALL -1 0 X 0 0
+; 7 4 WALL -1 0 X 0 0
+; 8 4 WALL -1 0 X 0 0
+; 9 4 WALL -1 0 X 0 0
+; 10 4 WALL -1 0 X 0 0
+; 11 4 WALL -1 0 X 0 0
+; 12 4 WALL -1 0 X 0 0
+; 13 4 WALL -1 0 X 0 0
+; 14 4 WALL -1 0 X 0 0
+; 15 4 WALL -1 0 X 0 0
+; 17 4 WALL -1 0 X 0 0
+; 0 5 WALL -1 0 X 0 0
+; 1 5 SPORER 0 4 E 2 2
+; 15 5 A -1 0 X 0 0
+; 17 5 WALL -1 0 X 0 0
+; 0 6 WALL -1 0 X 0 0
+; 1 6 ROOT 0 2 N 0 2
+; 17 6 WALL -1 0 X 0 0
+; 0 7 WALL -1 0 X 0 0
+; 17 7 WALL -1 0 X 0 0
+; 0 8 WALL -1 0 X 0 0
+; 1 8 WALL -1 0 X 0 0
+; 2 8 WALL -1 0 X 0 0
+; 3 8 WALL -1 0 X 0 0
+; 4 8 WALL -1 0 X 0 0
+; 5 8 WALL -1 0 X 0 0
+; 6 8 WALL -1 0 X 0 0
+; 7 8 WALL -1 0 X 0 0
+; 8 8 WALL -1 0 X 0 0
+; 9 8 WALL -1 0 X 0 0
+; 10 8 WALL -1 0 X 0 0
+; 11 8 WALL -1 0 X 0 0
+; 12 8 WALL -1 0 X 0 0
+; 13 8 WALL -1 0 X 0 0
+; 14 8 WALL -1 0 X 0 0
+; 15 8 WALL -1 0 X 0 0
+; 16 8 WALL -1 0 X 0 0
+; 17 8 WALL -1 0 X 0 0
+; 6 1 2 2
+; 6 1 2 2
+; 1
+--- my: [ A:6 B:1 C:2 D:2 ] ------ opp: [ A:6 B:1 C:2 D:2 ] ---
+##################
+#              a #
+#RS              #
+#                #
+################ #
+#s             a #
+#r               #
+#                #
+##################
+turn: 1
+die gefundenen Root-Organe: [{:root {:x 1, :y 2, :type "ROOT", :owner 1, :organId 1, :organDir "N", :organParentId 0, :organRootId 1}, :actual [2 2], :spore-state 1}]
+action-count:0 requiredActionsCount:1
+in harvest-strategy x:2 y:2 protein: {:x 15, :y 1, :type "A", :owner -1, :organId 0, :organDir "X", :organParentId 0, :organRootId 0}
+in shoot-sporer
+1: [{:root {:x 1, :y 2, :type "ROOT", :owner 1, :organId 1, :organDir "N", :organParentId 0, :organRootId 1}, :actual [2 2], :spore-state 2}]
+
+Standard Output Stream:
+
+SPORE 3 14 2
+
+2 7
+Standard Output Stream:
+
+SPORE 4 15 5
+
+Game Summary:
+
+kamikazejones:
+- consumed 1A, 1B, 1C, 1D for growth
+BOSS 4:
+- consumed 1A, 1B, 1C, 1D for growth
+- gained 3A from absorption
+
+Standard Error Stream:
+
+; 72
+; 0 0 WALL -1 0 X 0 0
+; 1 0 WALL -1 0 X 0 0
+; 2 0 WALL -1 0 X 0 0
+; 3 0 WALL -1 0 X 0 0
+; 4 0 WALL -1 0 X 0 0
+; 5 0 WALL -1 0 X 0 0
+; 6 0 WALL -1 0 X 0 0
+; 7 0 WALL -1 0 X 0 0
+; 8 0 WALL -1 0 X 0 0
+; 9 0 WALL -1 0 X 0 0
+; 10 0 WALL -1 0 X 0 0
+; 11 0 WALL -1 0 X 0 0
+; 12 0 WALL -1 0 X 0 0
+; 13 0 WALL -1 0 X 0 0
+; 14 0 WALL -1 0 X 0 0
+; 15 0 WALL -1 0 X 0 0
+; 16 0 WALL -1 0 X 0 0
+; 17 0 WALL -1 0 X 0 0
+; 0 1 WALL -1 0 X 0 0
+; 15 1 A -1 0 X 0 0
+; 17 1 WALL -1 0 X 0 0
+; 0 2 WALL -1 0 X 0 0
+; 1 2 ROOT 1 1 N 0 1
+; 2 2 SPORER 1 3 E 1 1
+; 14 2 ROOT 1 5 N 0 5
+; 17 2 WALL -1 0 X 0 0
+; 0 3 WALL -1 0 X 0 0
+; 17 3 WALL -1 0 X 0 0
+; 0 4 WALL -1 0 X 0 0
+; 1 4 WALL -1 0 X 0 0
+; 2 4 WALL -1 0 X 0 0
+; 3 4 WALL -1 0 X 0 0
+; 4 4 WALL -1 0 X 0 0
+; 5 4 WALL -1 0 X 0 0
+; 6 4 WALL -1 0 X 0 0
+; 7 4 WALL -1 0 X 0 0
+; 8 4 WALL -1 0 X 0 0
+; 9 4 WALL -1 0 X 0 0
+; 10 4 WALL -1 0 X 0 0
+; 11 4 WALL -1 0 X 0 0
+; 12 4 WALL -1 0 X 0 0
+; 13 4 WALL -1 0 X 0 0
+; 14 4 WALL -1 0 X 0 0
+; 15 4 WALL -1 0 X 0 0
+; 17 4 WALL -1 0 X 0 0
+; 0 5 WALL -1 0 X 0 0
+; 1 5 SPORER 0 4 E 2 2
+; 15 5 ROOT 0 6 N 0 6
+; 17 5 WALL -1 0 X 0 0
+; 0 6 WALL -1 0 X 0 0
+; 1 6 ROOT 0 2 N 0 2
+; 17 6 WALL -1 0 X 0 0
+; 0 7 WALL -1 0 X 0 0
+; 17 7 WALL -1 0 X 0 0
+; 0 8 WALL -1 0 X 0 0
+; 1 8 WALL -1 0 X 0 0
+; 2 8 WALL -1 0 X 0 0
+; 3 8 WALL -1 0 X 0 0
+; 4 8 WALL -1 0 X 0 0
+; 5 8 WALL -1 0 X 0 0
+; 6 8 WALL -1 0 X 0 0
+; 7 8 WALL -1 0 X 0 0
+; 8 8 WALL -1 0 X 0 0
+; 9 8 WALL -1 0 X 0 0
+; 10 8 WALL -1 0 X 0 0
+; 11 8 WALL -1 0 X 0 0
+; 12 8 WALL -1 0 X 0 0
+; 13 8 WALL -1 0 X 0 0
+; 14 8 WALL -1 0 X 0 0
+; 15 8 WALL -1 0 X 0 0
+; 16 8 WALL -1 0 X 0 0
+; 17 8 WALL -1 0 X 0 0
+; 5 0 1 1
+; 8 0 1 1
+; 2
+--- my: [ A:5 B:0 C:1 D:1 ] ------ opp: [ A:8 B:0 C:1 D:1 ] ---
+##################
+#              a #
+#RS           R  #
+#                #
+################ #
+#s             r #
+#r               #
+#                #
+##################
+turn: 2
+die gefundenen Root-Organe: [{:root {:x 1, :y 2, :type "ROOT", :owner 1, :organId 1, :organDir "N", :organParentId 0, :organRootId 1}, :actual [2 2], :spore-state 2} {:root {:x 14, :y 2, :type "ROOT", :owner 1, :organId 5, :organDir "N", :organParentId 0, :organRootId 5}, :actual [14 2], :spore-state 0}]
+action-count:0 requiredActionsCount:2
+in harvest-strategy x:2 y:2 protein: {:x 15, :y 1, :type "A", :owner -1, :organId 0, :organDir "X", :organParentId 0, :organRootId 0}
+go to the right
+habe die folgenden freien Felder gefunden: [[3 2] [2 3] [2 1] [1 3] [1 1]]
+in grow-most-right
+action-count:1 requiredActionsCount:2
+in harvest-strategy x:14 y:2 protein: {:x 15, :y 1, :type "A", :owner -1, :organId 0, :organDir "X", :organParentId 0, :organRootId 0}
+2: [{:root {:x 1, :y 2, :type "ROOT", :owner 1, :organId 1, :organDir "N", :organParentId 0, :organRootId 1}, :actual [3 2], :spore-state 2} {:root {:x 14, :y 2, :type "ROOT", :owner 1, :organId 5, :organDir "N", :organParentId 0, :organRootId 5}, :actual [14 2], :spore-state 0}]
+
+Standard Output Stream:
+
+GROW 3 3 2 BASIC E
+GROW 5 15 2 HARVESTER N
+
+3 7
+Standard Output Stream:
+
+GROW 6 15 6 BASIC N
+GROW 2 1 7 BASIC N
+
+Game Summary:
+
+kamikazejones:
+- consumed 1A, 1C, 1D for growth
+- gained 1A from harvest
+BOSS 4:
+- consumed 2A for growth
+
+Standard Error Stream:
+
+; 76
+; 0 0 WALL -1 0 X 0 0
+; 1 0 WALL -1 0 X 0 0
+; 2 0 WALL -1 0 X 0 0
+; 3 0 WALL -1 0 X 0 0
+; 4 0 WALL -1 0 X 0 0
+; 5 0 WALL -1 0 X 0 0
+; 6 0 WALL -1 0 X 0 0
+; 7 0 WALL -1 0 X 0 0
+; 8 0 WALL -1 0 X 0 0
+; 9 0 WALL -1 0 X 0 0
+; 10 0 WALL -1 0 X 0 0
+; 11 0 WALL -1 0 X 0 0
+; 12 0 WALL -1 0 X 0 0
+; 13 0 WALL -1 0 X 0 0
+; 14 0 WALL -1 0 X 0 0
+; 15 0 WALL -1 0 X 0 0
+; 16 0 WALL -1 0 X 0 0
+; 17 0 WALL -1 0 X 0 0
+; 0 1 WALL -1 0 X 0 0
+; 15 1 A -1 0 X 0 0
+; 17 1 WALL -1 0 X 0 0
+; 0 2 WALL -1 0 X 0 0
+; 1 2 ROOT 1 1 N 0 1
+; 2 2 SPORER 1 3 E 1 1
+; 3 2 BASIC 1 7 E 3 1
+; 14 2 ROOT 1 5 N 0 5
+; 15 2 HARVESTER 1 8 N 5 5
+; 17 2 WALL -1 0 X 0 0
+; 0 3 WALL -1 0 X 0 0
+; 17 3 WALL -1 0 X 0 0
+; 0 4 WALL -1 0 X 0 0
+; 1 4 WALL -1 0 X 0 0
+; 2 4 WALL -1 0 X 0 0
+; 3 4 WALL -1 0 X 0 0
+; 4 4 WALL -1 0 X 0 0
+; 5 4 WALL -1 0 X 0 0
+; 6 4 WALL -1 0 X 0 0
+; 7 4 WALL -1 0 X 0 0
+; 8 4 WALL -1 0 X 0 0
+; 9 4 WALL -1 0 X 0 0
+; 10 4 WALL -1 0 X 0 0
+; 11 4 WALL -1 0 X 0 0
+; 12 4 WALL -1 0 X 0 0
+; 13 4 WALL -1 0 X 0 0
+; 14 4 WALL -1 0 X 0 0
+; 15 4 WALL -1 0 X 0 0
+; 17 4 WALL -1 0 X 0 0
+; 0 5 WALL -1 0 X 0 0
+; 1 5 SPORER 0 4 E 2 2
+; 15 5 ROOT 0 6 N 0 6
+; 17 5 WALL -1 0 X 0 0
+; 0 6 WALL -1 0 X 0 0
+; 1 6 ROOT 0 2 N 0 2
+; 15 6 BASIC 0 10 N 6 6
+; 17 6 WALL -1 0 X 0 0
+; 0 7 WALL -1 0 X 0 0
+; 1 7 BASIC 0 9 N 2 2
+; 17 7 WALL -1 0 X 0 0
+; 0 8 WALL -1 0 X 0 0
+; 1 8 WALL -1 0 X 0 0
+; 2 8 WALL -1 0 X 0 0
+; 3 8 WALL -1 0 X 0 0
+; 4 8 WALL -1 0 X 0 0
+; 5 8 WALL -1 0 X 0 0
+; 6 8 WALL -1 0 X 0 0
+; 7 8 WALL -1 0 X 0 0
+; 8 8 WALL -1 0 X 0 0
+; 9 8 WALL -1 0 X 0 0
+; 10 8 WALL -1 0 X 0 0
+; 11 8 WALL -1 0 X 0 0
+; 12 8 WALL -1 0 X 0 0
+; 13 8 WALL -1 0 X 0 0
+; 14 8 WALL -1 0 X 0 0
+; 15 8 WALL -1 0 X 0 0
+; 16 8 WALL -1 0 X 0 0
+; 17 8 WALL -1 0 X 0 0
+; 5 0 0 0
+; 6 0 1 1
+; 2
+--- my: [ A:5 B:0 C:0 D:0 ] ------ opp: [ A:6 B:0 C:1 D:1 ] ---
+##################
+#              a #
+#RSO          RH #
+#                #
+################ #
+#s             r #
+#r             o #
+#o               #
+##################
+turn: 3
+die gefundenen Root-Organe: [{:root {:x 1, :y 2, :type "ROOT", :owner 1, :organId 1, :organDir "N", :organParentId 0, :organRootId 1}, :actual [3 2], :spore-state 2} {:root {:x 14, :y 2, :type "ROOT", :owner 1, :organId 5, :organDir "N", :organParentId 0, :organRootId 5}, :actual [14 2], :spore-state 0}]
+action-count:0 requiredActionsCount:2
+in harvest-strategy x:3 y:2 protein: {:x 15, :y 1, :type "A", :owner -1, :organId 0, :organDir "X", :organParentId 0, :organRootId 0}
+habe die folgenden freien Felder gefunden: [[2 3] [2 1] [1 3] [1 1] [4 2] [3 3] [3 1]]
+in grow-most-right
+action-count:1 requiredActionsCount:2
+in harvest-strategy x:14 y:2 protein: {:x 15, :y 1, :type "A", :owner -1, :organId 0, :organDir "X", :organParentId 0, :organRootId 0}
+habe die folgenden freien Felder gefunden: [[13 2] [14 3] [14 1] [16 2] [15 3]]
+in grow-most-right
+3: [{:root {:x 1, :y 2, :type "ROOT", :owner 1, :organId 1, :organDir "N", :organParentId 0, :organRootId 1}, :actual [4 2], :spore-state 2} {:root {:x 14, :y 2, :type "ROOT", :owner 1, :organId 5, :organDir "N", :organParentId 0, :organRootId 5}, :actual [16 2], :spore-state 0}]
+
+Standard Output Stream:
+
+GROW 7 4 2 BASIC E
+GROW 8 16 2 BASIC E
+
+4 7
+Standard Output Stream:
+
+GROW 6 16 5 BASIC N
+GROW 9 2 7 BASIC N
+
+Game Summary:
+
+kamikazejones:
+- consumed 2A for growth
+- gained 1A from harvest
+BOSS 4:
+- consumed 2A for growth
+
+Standard Error Stream:
+
+; 80
+; 0 0 WALL -1 0 X 0 0
+; 1 0 WALL -1 0 X 0 0
+; 2 0 WALL -1 0 X 0 0
+; 3 0 WALL -1 0 X 0 0
+; 4 0 WALL -1 0 X 0 0
+; 5 0 WALL -1 0 X 0 0
+; 6 0 WALL -1 0 X 0 0
+; 7 0 WALL -1 0 X 0 0
+; 8 0 WALL -1 0 X 0 0
+; 9 0 WALL -1 0 X 0 0
+; 10 0 WALL -1 0 X 0 0
+; 11 0 WALL -1 0 X 0 0
+; 12 0 WALL -1 0 X 0 0
+; 13 0 WALL -1 0 X 0 0
+; 14 0 WALL -1 0 X 0 0
+; 15 0 WALL -1 0 X 0 0
+; 16 0 WALL -1 0 X 0 0
+; 17 0 WALL -1 0 X 0 0
+; 0 1 WALL -1 0 X 0 0
+; 15 1 A -1 0 X 0 0
+; 17 1 WALL -1 0 X 0 0
+; 0 2 WALL -1 0 X 0 0
+; 1 2 ROOT 1 1 N 0 1
+; 2 2 SPORER 1 3 E 1 1
+; 3 2 BASIC 1 7 E 3 1
+; 4 2 BASIC 1 14 E 7 1
+; 14 2 ROOT 1 5 N 0 5
+; 15 2 HARVESTER 1 8 N 5 5
+; 16 2 BASIC 1 11 E 8 5
+; 17 2 WALL -1 0 X 0 0
+; 0 3 WALL -1 0 X 0 0
+; 17 3 WALL -1 0 X 0 0
+; 0 4 WALL -1 0 X 0 0
+; 1 4 WALL -1 0 X 0 0
+; 2 4 WALL -1 0 X 0 0
+; 3 4 WALL -1 0 X 0 0
+; 4 4 WALL -1 0 X 0 0
+; 5 4 WALL -1 0 X 0 0
+; 6 4 WALL -1 0 X 0 0
+; 7 4 WALL -1 0 X 0 0
+; 8 4 WALL -1 0 X 0 0
+; 9 4 WALL -1 0 X 0 0
+; 10 4 WALL -1 0 X 0 0
+; 11 4 WALL -1 0 X 0 0
+; 12 4 WALL -1 0 X 0 0
+; 13 4 WALL -1 0 X 0 0
+; 14 4 WALL -1 0 X 0 0
+; 15 4 WALL -1 0 X 0 0
+; 17 4 WALL -1 0 X 0 0
+; 0 5 WALL -1 0 X 0 0
+; 1 5 SPORER 0 4 E 2 2
+; 15 5 ROOT 0 6 N 0 6
+; 16 5 BASIC 0 13 N 6 6
+; 17 5 WALL -1 0 X 0 0
+; 0 6 WALL -1 0 X 0 0
+; 1 6 ROOT 0 2 N 0 2
+; 15 6 BASIC 0 10 N 6 6
+; 17 6 WALL -1 0 X 0 0
+; 0 7 WALL -1 0 X 0 0
+; 1 7 BASIC 0 9 N 2 2
+; 2 7 BASIC 0 12 N 9 2
+; 17 7 WALL -1 0 X 0 0
+; 0 8 WALL -1 0 X 0 0
+; 1 8 WALL -1 0 X 0 0
+; 2 8 WALL -1 0 X 0 0
+; 3 8 WALL -1 0 X 0 0
+; 4 8 WALL -1 0 X 0 0
+; 5 8 WALL -1 0 X 0 0
+; 6 8 WALL -1 0 X 0 0
+; 7 8 WALL -1 0 X 0 0
+; 8 8 WALL -1 0 X 0 0
+; 9 8 WALL -1 0 X 0 0
+; 10 8 WALL -1 0 X 0 0
+; 11 8 WALL -1 0 X 0 0
+; 12 8 WALL -1 0 X 0 0
+; 13 8 WALL -1 0 X 0 0
+; 14 8 WALL -1 0 X 0 0
+; 15 8 WALL -1 0 X 0 0
+; 16 8 WALL -1 0 X 0 0
+; 17 8 WALL -1 0 X 0 0
+; 4 0 0 0
+; 4 0 1 1
+; 2
+--- my: [ A:4 B:0 C:0 D:0 ] ------ opp: [ A:4 B:0 C:1 D:1 ] ---
+##################
+#              a #
+#RSOO         RHO#
+#                #
+################ #
+#s             ro#
+#r             o #
+#oo              #
+##################
+turn: 4
+die gefundenen Root-Organe: [{:root {:x 1, :y 2, :type "ROOT", :owner 1, :organId 1, :organDir "N", :organParentId 0, :organRootId 1}, :actual [4 2], :spore-state 2} {:root {:x 14, :y 2, :type "ROOT", :owner 1, :organId 5, :organDir "N", :organParentId 0, :organRootId 5}, :actual [16 2], :spore-state 0}]
+action-count:0 requiredActionsCount:2
+in harvest-strategy x:4 y:2 protein: {:x 15, :y 1, :type "A", :owner -1, :organId 0, :organDir "X", :organParentId 0, :organRootId 0}
+habe die folgenden freien Felder gefunden: [[2 3] [2 1] [5 2] [4 3] [4 1] [1 3] [1 1] [3 3] [3 1]]
+in grow-most-right
+action-count:1 requiredActionsCount:2
+in harvest-strategy x:16 y:2 protein: {:x 15, :y 1, :type "A", :owner -1, :organId 0, :organDir "X", :organParentId 0, :organRootId 0}
+habe die folgenden freien Felder gefunden: [[16 3] [16 1] [13 2] [14 3] [14 1] [15 3]]
+in grow-most-right
+4: [{:root {:x 1, :y 2, :type "ROOT", :owner 1, :organId 1, :organDir "N", :organParentId 0, :organRootId 1}, :actual [5 2], :spore-state 2} {:root {:x 14, :y 2, :type "ROOT", :owner 1, :organId 5, :organDir "N", :organParentId 0, :organRootId 5}, :actual [16 1], :spore-state 0}]
+
+Standard Output Stream:
+
+GROW 14 5 2 BASIC E
+GROW 11 16 1 BASIC E
+
+5 7
+Standard Output Stream:
+
+GROW 12 3 7 BASIC N
+GROW 13 16 6 BASIC N
+
+Game Summary:
+
+kamikazejones:
+- consumed 2A for growth
+- gained 1A from harvest
+BOSS 4:
+- consumed 2A for growth
+
+Standard Error Stream:
+
+; 84
+; 0 0 WALL -1 0 X 0 0
+; 1 0 WALL -1 0 X 0 0
+; 2 0 WALL -1 0 X 0 0
+; 3 0 WALL -1 0 X 0 0
+; 4 0 WALL -1 0 X 0 0
+; 5 0 WALL -1 0 X 0 0
+; 6 0 WALL -1 0 X 0 0
+; 7 0 WALL -1 0 X 0 0
+; 8 0 WALL -1 0 X 0 0
+; 9 0 WALL -1 0 X 0 0
+; 10 0 WALL -1 0 X 0 0
+; 11 0 WALL -1 0 X 0 0
+; 12 0 WALL -1 0 X 0 0
+; 13 0 WALL -1 0 X 0 0
+; 14 0 WALL -1 0 X 0 0
+; 15 0 WALL -1 0 X 0 0
+; 16 0 WALL -1 0 X 0 0
+; 17 0 WALL -1 0 X 0 0
+; 0 1 WALL -1 0 X 0 0
+; 15 1 A -1 0 X 0 0
+; 16 1 BASIC 1 15 E 11 5
+; 17 1 WALL -1 0 X 0 0
+; 0 2 WALL -1 0 X 0 0
+; 1 2 ROOT 1 1 N 0 1
+; 2 2 SPORER 1 3 E 1 1
+; 3 2 BASIC 1 7 E 3 1
+; 4 2 BASIC 1 14 E 7 1
+; 5 2 BASIC 1 18 E 14 1
+; 14 2 ROOT 1 5 N 0 5
+; 15 2 HARVESTER 1 8 N 5 5
+; 16 2 BASIC 1 11 E 8 5
+; 17 2 WALL -1 0 X 0 0
+; 0 3 WALL -1 0 X 0 0
+; 17 3 WALL -1 0 X 0 0
+; 0 4 WALL -1 0 X 0 0
+; 1 4 WALL -1 0 X 0 0
+; 2 4 WALL -1 0 X 0 0
+; 3 4 WALL -1 0 X 0 0
+; 4 4 WALL -1 0 X 0 0
+; 5 4 WALL -1 0 X 0 0
+; 6 4 WALL -1 0 X 0 0
+; 7 4 WALL -1 0 X 0 0
+; 8 4 WALL -1 0 X 0 0
+; 9 4 WALL -1 0 X 0 0
+; 10 4 WALL -1 0 X 0 0
+; 11 4 WALL -1 0 X 0 0
+; 12 4 WALL -1 0 X 0 0
+; 13 4 WALL -1 0 X 0 0
+; 14 4 WALL -1 0 X 0 0
+; 15 4 WALL -1 0 X 0 0
+; 17 4 WALL -1 0 X 0 0
+; 0 5 WALL -1 0 X 0 0
+; 1 5 SPORER 0 4 E 2 2
+; 15 5 ROOT 0 6 N 0 6
+; 16 5 BASIC 0 13 N 6 6
+; 17 5 WALL -1 0 X 0 0
+; 0 6 WALL -1 0 X 0 0
+; 1 6 ROOT 0 2 N 0 2
+; 15 6 BASIC 0 10 N 6 6
+; 16 6 BASIC 0 17 N 13 6
+; 17 6 WALL -1 0 X 0 0
+; 0 7 WALL -1 0 X 0 0
+; 1 7 BASIC 0 9 N 2 2
+; 2 7 BASIC 0 12 N 9 2
+; 3 7 BASIC 0 16 N 12 2
+; 17 7 WALL -1 0 X 0 0
+; 0 8 WALL -1 0 X 0 0
+; 1 8 WALL -1 0 X 0 0
+; 2 8 WALL -1 0 X 0 0
+; 3 8 WALL -1 0 X 0 0
+; 4 8 WALL -1 0 X 0 0
+; 5 8 WALL -1 0 X 0 0
+; 6 8 WALL -1 0 X 0 0
+; 7 8 WALL -1 0 X 0 0
+; 8 8 WALL -1 0 X 0 0
+; 9 8 WALL -1 0 X 0 0
+; 10 8 WALL -1 0 X 0 0
+; 11 8 WALL -1 0 X 0 0
+; 12 8 WALL -1 0 X 0 0
+; 13 8 WALL -1 0 X 0 0
+; 14 8 WALL -1 0 X 0 0
+; 15 8 WALL -1 0 X 0 0
+; 16 8 WALL -1 0 X 0 0
+; 17 8 WALL -1 0 X 0 0
+; 3 0 0 0
+; 2 0 1 1
+; 2
+--- my: [ A:3 B:0 C:0 D:0 ] ------ opp: [ A:2 B:0 C:1 D:1 ] ---
+##################
+#              aO#
+#RSOOO        RHO#
+#                #
+################ #
+#s             ro#
+#r             oo#
+#ooo             #
+##################
+turn: 5
+die gefundenen Root-Organe: [{:root {:x 1, :y 2, :type "ROOT", :owner 1, :organId 1, :organDir "N", :organParentId 0, :organRootId 1}, :actual [5 2], :spore-state 2} {:root {:x 14, :y 2, :type "ROOT", :owner 1, :organId 5, :organDir "N", :organParentId 0, :organRootId 5}, :actual [16 1], :spore-state 0}]
+action-count:0 requiredActionsCount:2
+in harvest-strategy x:5 y:2 protein: {:x 15, :y 1, :type "A", :owner -1, :organId 0, :organDir "X", :organParentId 0, :organRootId 0}
+habe die folgenden freien Felder gefunden: [[2 3] [2 1] [4 3] [4 1] [6 2] [5 3] [5 1] [1 3] [1 1] [3 3] [3 1]]
+in grow-most-right
+action-count:1 requiredActionsCount:2
+in harvest-strategy x:16 y:1 protein: {:x 15, :y 1, :type "A", :owner -1, :organId 0, :organDir "X", :organParentId 0, :organRootId 0}
+habe die folgenden freien Felder gefunden: [[16 3] [13 2] [14 3] [14 1] [15 3]]
+in grow-most-right
+5: [{:root {:x 1, :y 2, :type "ROOT", :owner 1, :organId 1, :organDir "N", :organParentId 0, :organRootId 1}, :actual [6 2], :spore-state 2} {:root {:x 14, :y 2, :type "ROOT", :owner 1, :organId 5, :organDir "N", :organParentId 0, :organRootId 5}, :actual [16 3], :spore-state 0}]
+
+Standard Output Stream:
+
+GROW 18 6 2 BASIC E
+GROW 11 16 3 BASIC E
+
+6 7
+Standard Output Stream:
+
+GROW 6 14 5 BASIC N
+GROW 4 2 5 BASIC N
+
+Game Summary:
+
+kamikazejones:
+- consumed 2A for growth
+- gained 1A from harvest
+BOSS 4:
+- consumed 2A for growth
+
+Standard Error Stream:
+
+; 88
+; 0 0 WALL -1 0 X 0 0
+; 1 0 WALL -1 0 X 0 0
+; 2 0 WALL -1 0 X 0 0
+; 3 0 WALL -1 0 X 0 0
+; 4 0 WALL -1 0 X 0 0
+; 5 0 WALL -1 0 X 0 0
+; 6 0 WALL -1 0 X 0 0
+; 7 0 WALL -1 0 X 0 0
+; 8 0 WALL -1 0 X 0 0
+; 9 0 WALL -1 0 X 0 0
+; 10 0 WALL -1 0 X 0 0
+; 11 0 WALL -1 0 X 0 0
+; 12 0 WALL -1 0 X 0 0
+; 13 0 WALL -1 0 X 0 0
+; 14 0 WALL -1 0 X 0 0
+; 15 0 WALL -1 0 X 0 0
+; 16 0 WALL -1 0 X 0 0
+; 17 0 WALL -1 0 X 0 0
+; 0 1 WALL -1 0 X 0 0
+; 15 1 A -1 0 X 0 0
+; 16 1 BASIC 1 15 E 11 5
+; 17 1 WALL -1 0 X 0 0
+; 0 2 WALL -1 0 X 0 0
+; 1 2 ROOT 1 1 N 0 1
+; 2 2 SPORER 1 3 E 1 1
+; 3 2 BASIC 1 7 E 3 1
+; 4 2 BASIC 1 14 E 7 1
+; 5 2 BASIC 1 18 E 14 1
+; 6 2 BASIC 1 22 E 18 1
+; 14 2 ROOT 1 5 N 0 5
+; 15 2 HARVESTER 1 8 N 5 5
+; 16 2 BASIC 1 11 E 8 5
+; 17 2 WALL -1 0 X 0 0
+; 0 3 WALL -1 0 X 0 0
+; 16 3 BASIC 1 20 E 11 5
+; 17 3 WALL -1 0 X 0 0
+; 0 4 WALL -1 0 X 0 0
+; 1 4 WALL -1 0 X 0 0
+; 2 4 WALL -1 0 X 0 0
+; 3 4 WALL -1 0 X 0 0
+; 4 4 WALL -1 0 X 0 0
+; 5 4 WALL -1 0 X 0 0
+; 6 4 WALL -1 0 X 0 0
+; 7 4 WALL -1 0 X 0 0
+; 8 4 WALL -1 0 X 0 0
+; 9 4 WALL -1 0 X 0 0
+; 10 4 WALL -1 0 X 0 0
+; 11 4 WALL -1 0 X 0 0
+; 12 4 WALL -1 0 X 0 0
+; 13 4 WALL -1 0 X 0 0
+; 14 4 WALL -1 0 X 0 0
+; 15 4 WALL -1 0 X 0 0
+; 17 4 WALL -1 0 X 0 0
+; 0 5 WALL -1 0 X 0 0
+; 1 5 SPORER 0 4 E 2 2
+; 2 5 BASIC 0 19 N 4 2
+; 14 5 BASIC 0 21 N 6 6
+; 15 5 ROOT 0 6 N 0 6
+; 16 5 BASIC 0 13 N 6 6
+; 17 5 WALL -1 0 X 0 0
+; 0 6 WALL -1 0 X 0 0
+; 1 6 ROOT 0 2 N 0 2
+; 15 6 BASIC 0 10 N 6 6
+; 16 6 BASIC 0 17 N 13 6
+; 17 6 WALL -1 0 X 0 0
+; 0 7 WALL -1 0 X 0 0
+; 1 7 BASIC 0 9 N 2 2
+; 2 7 BASIC 0 12 N 9 2
+; 3 7 BASIC 0 16 N 12 2
+; 17 7 WALL -1 0 X 0 0
+; 0 8 WALL -1 0 X 0 0
+; 1 8 WALL -1 0 X 0 0
+; 2 8 WALL -1 0 X 0 0
+; 3 8 WALL -1 0 X 0 0
+; 4 8 WALL -1 0 X 0 0
+; 5 8 WALL -1 0 X 0 0
+; 6 8 WALL -1 0 X 0 0
+; 7 8 WALL -1 0 X 0 0
+; 8 8 WALL -1 0 X 0 0
+; 9 8 WALL -1 0 X 0 0
+; 10 8 WALL -1 0 X 0 0
+; 11 8 WALL -1 0 X 0 0
+; 12 8 WALL -1 0 X 0 0
+; 13 8 WALL -1 0 X 0 0
+; 14 8 WALL -1 0 X 0 0
+; 15 8 WALL -1 0 X 0 0
+; 16 8 WALL -1 0 X 0 0
+; 17 8 WALL -1 0 X 0 0
+; 2 0 0 0
+; 0 0 1 1
+; 2
+--- my: [ A:2 B:0 C:0 D:0 ] ------ opp: [ A:0 B:0 C:1 D:1 ] ---
+##################
+#              aO#
+#RSOOOO       RHO#
+#               O#
+################ #
+#so           oro#
+#r             oo#
+#ooo             #
+##################
+turn: 6
+die gefundenen Root-Organe: [{:root {:x 1, :y 2, :type "ROOT", :owner 1, :organId 1, :organDir "N", :organParentId 0, :organRootId 1}, :actual [6 2], :spore-state 2} {:root {:x 14, :y 2, :type "ROOT", :owner 1, :organId 5, :organDir "N", :organParentId 0, :organRootId 5}, :actual [16 3], :spore-state 0}]
+action-count:0 requiredActionsCount:2
+in harvest-strategy x:6 y:2 protein: {:x 15, :y 1, :type "A", :owner -1, :organId 0, :organDir "X", :organParentId 0, :organRootId 0}
+habe die folgenden freien Felder gefunden: [[2 3] [2 1] [4 3] [4 1] [5 3] [5 1] [7 2] [6 3] [6 1] [1 3] [1 1] [3 3] [3 1]]
+in grow-most-right
+action-count:1 requiredActionsCount:2
+in harvest-strategy x:16 y:3 protein: {:x 15, :y 1, :type "A", :owner -1, :organId 0, :organDir "X", :organParentId 0, :organRootId 0}
+habe die folgenden freien Felder gefunden: [[15 3] [16 4] [13 2] [14 3] [14 1] [15 3]]
+in grow-most-right
+6: [{:root {:x 1, :y 2, :type "ROOT", :owner 1, :organId 1, :organDir "N", :organParentId 0, :organRootId 1}, :actual [7 2], :spore-state 2} {:root {:x 14, :y 2, :type "ROOT", :owner 1, :organId 5, :organDir "N", :organParentId 0, :organRootId 5}, :actual [16 4], :spore-state 0}]
+
+Standard Output Stream:
+
+GROW 22 7 2 BASIC E
+GROW 20 16 4 BASIC E
+
+7 7
+Standard Output Stream:
+
+GROW 19 2 6 HARVESTER W
+WAIT
+
+Game Summary:
+
+kamikazejones:
+- consumed 2A for growth
+- gained 1A from harvest
+BOSS 4:
+- consumed 1C, 1D for growth
+
+Game over: not enough proteins to continue evolving.
+
